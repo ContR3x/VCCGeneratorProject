@@ -1,0 +1,137 @@
+/* Estilos generales */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+}
+
+header {
+  background-color: #111; /* Fondo negro más claro */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #ffa500; /* Naranja */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffa500; /* Naranja */
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+#home,
+#generator,
+#validator,
+#warning {
+  text-align: center;
+}
+
+h2 {
+  color: #ffa500; /* Naranja */
+}
+
+/* Formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+form label,
+form input,
+form select,
+form button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  max-width: 300px;
+}
+
+form button {
+  background-color: #ffa500; /* Naranja */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #e59400; /* Naranja más oscuro */
+}
+
+#generatedCardInfo,
+#validationResult {
+  margin-top: 20px;
+}
+/* Centrar y estilizar la imagen */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+/* ... (otras reglas CSS existentes) ... */
+
+/* Estilo para el mensaje de bienvenida */
+.welcome-message {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+  color: white;
+}
+
+.welcome-message h2 {
+  color: orange;
+}
+
+.welcome-message p {
+  margin: 10px 0;
+}
+
+/* Centrar y estilizar la imagen */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Ajustado para no ocupar toda la pantalla */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}

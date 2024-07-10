@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validador de Tarjetas - VCCGenerator</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>VCCGenerator</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="generator.html">Generador de Tarjetas</a></li>
+          <li><a href="validator.html">Validador de Tarjetas</a></li>
+          <li><a href="warning.html">Advertencia</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="validator">
+        <h2>Validador de Tarjetas</h2>
+        <form id="cardValidatorForm">
+          <label for="cardTypeValidator">Tipo de Tarjeta:</label>
+          <select id="cardTypeValidator">
+            <option value="visa">Visa</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="amex">American Express</option>
+          </select>
+          <label for="cardCategoryValidator">Categoría de Tarjeta:</label>
+          <select id="cardCategoryValidator">
+            <option value="credit">Crédito</option>
+            <option value="debit">Débito</option>
+          </select>
+          <label for="cardNumberValidator">Número de Tarjeta:</label>
+          <input
+            type="text"
+            id="cardNumberValidator"
+            placeholder="Número de Tarjeta"
+          />
+          <label for="expiryDateValidator">Fecha de Expiración:</label>
+          <input type="text" id="expiryDateValidator" placeholder="MM/AA" />
+          <label for="cvvValidator">CVV:</label>
+          <input type="text" id="cvvValidator" placeholder="CVV" />
+          <label for="balanceValidator">Saldo actual:</label>
+          <input
+            type="number"
+            id="balanceValidator"
+            placeholder="Saldo en USD"
+          />
+          <button type="button" onclick="validateCard()">
+            Validar Tarjeta
+          </button>
+        </form>
+        <div id="validationResult"></div>
+      </section>
+    </main>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
