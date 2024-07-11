@@ -3,7 +3,8 @@
 
 ## Descripción
 
-**VCCGenerator** es una aplicación web que permite generar y validar números de tarjetas de crédito y débito virtuales utilizando el algoritmo de Luhn. Esta herramienta está destinada a fines educativos y de prueba, y su uso debe ser siempre ético y legal.
+**VCCGenerator** es una aplicación web que permite generar y validar números de tarjetas de crédito y débito virtuales utilizando el algoritmo de Luhn.
+Esta herramienta está destinada a fines educativos y de prueba, y su uso debe ser siempre ético y legal.
 
 ## Estructura del Proyecto
 
@@ -56,11 +57,13 @@ VCCGeneratorProject/
 
 ## Advertencia
 
-Este proyecto es únicamente para fines educativos y de prueba. El uso indebido de números de tarjetas de crédito, incluso virtuales, puede tener implicaciones legales. Por favor, utiliza esta herramienta de manera ética y responsable.
+Este proyecto es únicamente para fines educativos y de prueba. El uso indebido de números de tarjetas de crédito,
+incluso virtuales, puede tener implicaciones legales. Por favor, utiliza esta herramienta de manera ética y responsable.
 
 ## Autor
 
-**ContR3x** - Estudiante de programación. Este proyecto es parte de mi aprendizaje en el desarrollo de software. Puedes seguir mi progreso y otros proyectos en mi [GitHub](https://github.com/ContR3x).
+**ContR3x** - Estudiante de programación. Este proyecto es parte de mi aprendizaje en el desarrollo de software.
+Puedes seguir mi progreso y otros proyectos en mi [GitHub](https://github.com/ContR3x).
 
 ## Licencia
 
